@@ -1,4 +1,5 @@
 Descrição do Projeto
+
 Este projeto foi desenvolvido como parte do trabalho A3 das disciplinas "Sistemas Distribuidos e Mobile" e "Usabilidade, Desenvolvimento Web, Mobile e Jogos". O sistema tem como objetivo permitir o cadastro de funcionários e o registro de pontos de forma simples e intuitiva, seguindo boas práticas de usabilidade e design responsivo.
 
 O sistema foi construído utilizando as seguintes tecnologias:
