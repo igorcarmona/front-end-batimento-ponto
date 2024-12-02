@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Registro de Ponto</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Ponto Digital</h1>
+    </header>
+    <div class="janela">
+        <div class="relogio"></div>
+
+        <div class="novo-registro-container">
+            <button type="button" class="btn-novo-registro" onclick="registrarNovoHorario()">Novo Registro</button>
+            <div id="registro-atual" class="registro-retorno"></div>
+        </div>
+
+        <div class="tabela-container">
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Entrada</th>
+                            <th>Saída</th>
+                            <th>Horas Trabalhadas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="logout-container">
+            <button type="button" class="btn-logout" onclick="logout()">Logout</button>
+        </div>
+    </div>
+    <script src="home-script.js"></script>
+</body>
+</html>

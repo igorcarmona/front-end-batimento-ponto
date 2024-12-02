@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login">
+    <div class="camada"></div>
+    <div class="janela">
+        <div class="left-func">
+            <img src="img/login.png" alt="Imagem ilustrativa">
+        </div>
+        <div class="right">
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="group-input">
+                    <label for="matricula">Matrícula</label>
+                    <input type="text" id="matricula" name="matricula" placeholder="Digite sua matrícula" required>
+                </div>
+                <div class="group-input">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+                <button type="submit" class="botao-login">Entrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="login-script.js"></script>
+</body>
+</html>
