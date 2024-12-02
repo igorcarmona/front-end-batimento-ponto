@@ -5,14 +5,21 @@ Este projeto foi desenvolvido como parte do trabalho A3 das disciplinas "Sistema
 O sistema foi construído utilizando as seguintes tecnologias:
 
 Back-end: Java com Spring Framework.
+
 Front-end: HTML, CSS e JavaScript.
+
 Banco de Dados: MySql
+
 Build Tool: Maven.
+
 Funcionalidades
+
 Cadastro de Funcionários:
 Permite adicionar, editar e excluir registros de funcionários. Campos principais incluem nome, cargo, e-mail e número de identificação.
+
 Registro de Ponto:
 Os funcionários podem registrar seu ponto (entrada e saída) com base em seu identificador.
+
 Relatórios:
 Exibição de relatórios simples com a lista de funcionários e seus respectivos registros de ponto.
 
