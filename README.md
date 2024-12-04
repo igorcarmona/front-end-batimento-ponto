@@ -28,3 +28,5 @@ Para testar o Batimento de Ponto use a Matricula: 1014 e Senha: senha321
 Para testar o Cadastro de Funcionário use a Matricula: 1002 e Senha: senha456
 
 Link da Apresentação do Projeto: https://youtu.be/j1QyzIas7t0?si=M8e5z3M6HdZ51qud
+
+Link Figma: https://www.figma.com/design/uikSSmqILKMlyG02pYhAAO/Untitled?node-id=25-6&node-type=canvas
