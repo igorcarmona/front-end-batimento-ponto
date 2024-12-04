@@ -35,19 +35,29 @@ header {
     align-items: center;
     background-color: var(--roxo-principal);
     color: var(--branco);
-    font-size: 10px;
+    font-size: 16px;
     padding: 15px 20px;
     z-index: 10;
 }
 
-.camada {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(187, 187, 187, 0.3);
-    z-index: 1;
+.upload-container {
+    display: flex;
+    align-items: center;
+}
+
+.upload-label {
+    background-color: var(--branco);
+    color: var(--roxo-principal);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font: bold 14px/1.5 'Inter', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.upload-label:hover {
+    background-color: var(--roxo-principal);
+    color: var(--branco);
 }
 
 .janela {
@@ -81,71 +91,6 @@ header {
     margin: 0 auto;
 }
 
-.pesquisa-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 20px auto;
-    padding: 15px;
-    max-width: 800px;
-    width: 40%;
-}
-
-.pesquisa-container form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-label {
-    font-weight: bold;
-    color: var(--cinza-escuro);
-}
-
-input[type="date"] {
-    flex: 1;
-    min-width: 0;
-    height: 50px;
-    padding: 0 15px;
-    font: bold 16px/1.5 sans-serif;
-    color: var(--cinza-escuro);
-    border: none;
-    border-radius: 100px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.btn-buscar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: var(--roxo-principal);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.icon {
-    stroke: var(--branco);
-    stroke-width: 3.5;
-    fill: none;
-    width: 20px;
-    height: 20px;
-    transition: stroke 0.3s;
-}
-
-.btn-buscar:hover {
-    background-color: var(--roxo-escuro);
-    transform: scale(1.01);
-}
-
-.btn-buscar:hover .icon {
-    stroke: var(--lilas);
-}
-
 .novo-registro-container {
     display: flex;
     flex-direction: column;
@@ -168,11 +113,6 @@ input[type="date"] {
     background-color: var(--roxo-escuro);
     color: var(--lilas);
     transform: scale(1.01);
-}
-
-.registro-retorno {
-    margin-top: 10px;
-    font: 900 14px/1.5 var(--cinza-escuro);
 }
 
 .tabela {
@@ -212,10 +152,6 @@ tbody td {
     text-align: left;
     color: #333;
     border-bottom: 1px solid var(--cinza-medio);
-}
-
-tbody tr:last-child td {
-    border-bottom: none;
 }
 
 .btn-logout {
